@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .boxex{
+      <style>
+        
+        /* .boxex{
             display: flex;
         }
         .box{
@@ -36,11 +37,16 @@
             justify-content: space-around;
             align-items: center;
             text-decoration: none;
+     } */
+        .gridcontainer{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
         }
-    </style>
+    </style> 
 </head>
 <body>
-    <!-- Navbar -->
+     <!-- Navbar
     <nav>
         <ul class="navbar" >
             <li><a href="#">Home</a></li>
@@ -49,7 +55,7 @@
             <li><a href="#">Contact</a></li>
         </ul>
         </nav>
-    <!-- Top five favourite foods with 1, 2, 3 -->
+    Top five favourite foods with 1, 2, 3 
     <h1>Top Five Favourite Foods</h1>
     <ol style="list-style-type: decimal;">
         <li style="list-style-type: decimal;">Biryani</li>
@@ -62,8 +68,19 @@
    </ol>
    <div class="boxex">
    <div class="box1 box">1</div>
-   <div class="box1 box">2</div>
-   <div class="box1 box">3</div>
-   </div>
+   <div class="box2 box">2</div>
+   <div class="box3 box">3</div>
+   </div>  -->
+   <div class="gridcontainer">
+    <div class="box1 box">1</div>
+    <div class="box2 box">2</div>   
+    <div class="box3 box">3</div>
+     <div class="box4 box">4</div>
+    <div class="box5 box">5</div>   
+    <div class="box6 box">6</div>
+     <div class="box7 box">7</div>
+    <div class="box8 box">8</div>   
+    <div class="box9 box">9</div>
+    </div>
 </body>
 </html>
