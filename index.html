@@ -40,8 +40,23 @@
      } */
         .gridcontainer{
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
+            align-items: center ;
+        }
+        .box1{
+            grid-column-start: 1;
+            grid-column-end: 6;
+        }
+        .box2{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 6;
+        }
+        .box3{
+            grid-column-start: 3;
+            grid-column-end: 6;
+            grid-row-start: 2;
+            grid-row-end: 3;
         }
     </style> 
 </head>
@@ -78,9 +93,6 @@
      <div class="box4 box">4</div>
     <div class="box5 box">5</div>   
     <div class="box6 box">6</div>
-     <div class="box7 box">7</div>
-    <div class="box8 box">8</div>   
-    <div class="box9 box">9</div>
     </div>
 </body>
 </html>
