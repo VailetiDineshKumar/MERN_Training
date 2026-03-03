@@ -4,10 +4,12 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Conditional from './components/conditional.jsx';
 import Home from './components/Home.jsx';
 import About from './components/About.jsx';
+import Navbar from './components/Navbar.jsx';
 const App = () => {
 
 return (
     <div>
+      <Navbar />
       <Router>
       <Routes>
         <Route path="/" element={<Home />} />
