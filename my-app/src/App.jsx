@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import Conditional from './assets/components/conditional.jsx';
+import Conditional from './components/conditional.jsx';
 const App = () => {
 
 return (
